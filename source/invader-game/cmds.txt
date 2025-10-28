@@ -1,0 +1,3 @@
+python source/invader-game/main.py
+python source/invader-game/make-icon.py
+pyinstaller --onefile --windowed --icon=source/invader-game/images/icon.ico --add-data "source/invader-game/images;images" --add-data "source/invader-game/fonts;fonts" --add-data "source/invader-game/sounds;sounds" source/invader-game/main.py
